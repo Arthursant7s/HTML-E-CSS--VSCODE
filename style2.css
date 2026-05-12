@@ -1,0 +1,62 @@
+/* RESET DE CONFIGURAÇÕES DO NAVEGADOR */
+*{
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 30px;
+}
+h2{
+    color: aqua;
+}
+body{
+    color: rgb(39, 248, 255);
+}
+.index {
+    background-image: url("assests2/background-index.jpg");
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.segunda-pagina {
+    background-image: url("assests2/background-champions.jpg");
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.terceira-pagina {
+    background-image: url("assests2/background-champions.jpg");
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{
+    text-align: center;
+    color: rgb(222, 57, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: blueviolet;
+    margin: 20px;
+}
+li{
+    list-style: none;
+}
+
+button{
+    display: block;
+    padding: 10px 30px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 10px auto;
+    background-color: aqua;
+}

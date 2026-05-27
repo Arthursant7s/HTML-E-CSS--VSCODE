@@ -1,0 +1,59 @@
+/* REDEFINIR CONFIGURAÇÃO DO NAVEGADOR */
+
+* {
+    padding: 3%;
+    margin: 10%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/background\ universe\ purple.jpg);
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+    color: aliceblue;
+}
+h2 {
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 20px auto;
+}
+
+button {
+    display: block;
+    padding: 10px 30px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 10px auto;
+    background-color: rgb(255, 37, 237);
+}
+
